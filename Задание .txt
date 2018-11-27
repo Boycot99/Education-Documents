@@ -1,0 +1,39 @@
+Теперь нужно более подробно изучать технологии, которые мы будем применять в разработке: 
+Spring Boot (RESTful services) - https://spring.io/guides/tutorials/bookmarks/ 
+Spring Data (JPA) - https://docs.spring.io/spring-data/jpa/docs/current/r.. 
+Apache Olingo (OData) - https://olingo.apache.org/doc/odata2/index.html 
+Jenkins (CI/CD) - https://confluence.customertimes.com/pages/viewpage.a.. (можно не делать) 
+Сегодня задача - начать изучать технологии и проходить туториалы в указанных ссылках. 
+
+Завтра постараюсь организовать семинар, где уже более подробно расскажу. 
+Проверьте, что у вас есть доступ (должен быть) к этим ресурсам: 
+https://gitlabhq.customertimes.com/SAP-Cloud-Platform.. 
+https://confluence.customertimes.com/display/SCPLOYAL.. 
+Возможно, ваше вовлечение в проект начнется уже в ноября, а не в декабре, как это планировалось ранее. Так держать! 
+
+__________________________________________________________________________________________________________________________
+Задачи на w46
+Изучить технологии Spring Boot:
+Java Config
+Controllers
+Services
+Repositories (JPA)
+SpEL (Spring Expression Language)
+Изучить Apache Olingo (v2) и написать клиента для публичного OData сервиса
+В пятницу приехать в офис на Автозаводской и занять переговорку 545. Схему проезда я предоставлю.
+Планы на w47
+Изучение SCP Loyalty
+Тестовое задание
+Планы на w48
+Почти проектные задания по SCP Loyalty
+Начиная с w47 мы постоянно будем размещены в переговорке 545 в офисе на Автозаводской.
+__________________________________________________________________________________________________________________________
+Изучение Java для SCP 
+• Курс Configuring Eclipse with SAP Cloud Platform Tools for Java (https://www.sap.com/developer/tutorials/hcp-java-ecli..) – 1 час. 
+• Курс Create a basic Java app in SAP Cloud Platform (https://www.sap.com/developer/tutorials/hcp-java-weat..) с последующими шагами – 4 часа. 
+• Курс Building a RESTful Web Service (https://spring.io/guides/gs/rest-service/) – 1 час. 
+• Курс Accessing Data with JPA (https://spring.io/guides/gs/accessing-data-jpa/) – 1 час. 
+• Курс Consuming a RESTful Web Service (https://spring.io/guides/gs/consuming-rest/) – 1 час. 
+Итоговый период обучения – 1 день. 
+Изучение решения MD Loyalty 
+• Изучение технической документации (https://confluence.customertimes.com/pages/viewpage.a..) – 3 часа. 

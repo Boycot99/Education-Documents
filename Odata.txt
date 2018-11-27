@@ -1,0 +1,21 @@
+Olingo
+Entity Data Model(EDM)
+Entity Provider
+{
+ readMetadata(content
+}
+
+For read of a complete ODataFeed the HTTP GET request URI is a EntitySet. 
+Via the connect(...) method the request is done against the created absolut uri and the responding content is returned as InputStream.
+ This InputStream than will be de-serialized by the EntitProvider.readFeed(...) into an ODataFeed object which 
+ contains all entities provided by the OData Service as well as FeedMetadata like inline count and next link.
+ 
+ 
+Code sample: Read EDM ($metadata)
+ Read single Entry or  Read complete Feed
+ 
+ 
+ Code sample: Create single Entry
+  POST entry
+   Read response
+   Create single Entry method

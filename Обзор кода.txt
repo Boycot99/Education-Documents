@@ -1,0 +1,72 @@
+19-11-18. 11-17.Стенограмма. 
+Обзор кода.
+___________________________________________
+build, warник root
+пакет: com.md.loy.cloud
+___________________________________________
+jenkinsfile
+
+stage("Build Java App") {
+        dir(SRC) {
+            withEnv(["http_proxy=${proxy}", "https_proxy=${httpsProxy}"]) {
+                mavenExecute script: this, goals: 'clean package javadoc:javadoc -Dspring.jpa.hibernate.ddl-auto=create -Dcom.md.loy.cloud.scheduler.active=false'
+            }
+        }
+    }
+___________________________________________
+web.xml
+метод авторизации custom
+custom на SCP (basic,sso, auth2)
+фильтры
+___________________________________________
+@Configuration
+@EnableTransactionManagement
+@EnableWebMvc
+@EnableAsync
+java.
+class ApplicationConfiguration extends WebMvcConfigurerAdapter ...
+
+	базовые настройки
+.....
+NamingStrategy
+........
+все аннотации @Api для сваггера
+....
+репозиторий  реализует базовые операции
+ну и запрос по методу.
+....
+jpa.specification.executor - спринг тема, спецификация
+....
+@Transactional(propagation = Propagation.MANDATORY)
+если этот метод вызывается, то должна существовать транзакция иначе эксепшн
+.....
+The String's constructor can be called instead of using a string literal.
+................................
+бальный счет
+дата активации
+дата сгорания
+...............................
+участие
+............
+бизнес логика////
+
+//////
+hybris marketing
+
+про урлы, процессинг, урл сервис.
+..................................
+Задание.
+	package com.md.loy.cloud.parameter.entityeventname;
+	public class EntityEventName
+	взять событие сделат ьрегистрацию registagent
+	зарегистрировать обработчик, сделать обработчик событий, пишет в лог  или консоль.
+1.Запустить лоялность на ЛМ
+2.
+3.
+.........................
+1. Запустить лояльность на локальной машине
+2. Поработать с API (с дебагом)
+3. Изучить код
+4. Реализовать регистрацию события сущности (например регистрация участия) через EntityEventBusinessLogic.registerEvent
+5. Реалзиовать EntityEventProcessor для созданного ранее события
+.........................
