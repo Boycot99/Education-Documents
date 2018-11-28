@@ -1,0 +1,5 @@
+Links
+https://www.odata.org/documentation/odata-version-2-0/json-format/
+https://docs.oracle.com/javase/8/docs/api/java/lang/Iterable.html#spliterator--
+https://en.wikipedia.org/wiki/SOAP
+https://habr.com/post/150034/

@@ -1,0 +1,35 @@
+															Expression Evalution
+														using Spring's expression interface
+_____________________________________________
+ExpressionParser parser = new SpelExpressionParser();
+Expression exp = parser.parseExpression("'Hello World'");
+String message = (String) exp.getValue();
+_____________________________________________
+SpEL classes and interfaces located in the packages org.springframework.expression and its subpackages and spel.support.
+
+The interface ExpressionParser is responsible for parsing an expression string. 
+The interface Expression is responsible for evaluating the previously defined expression string.
+SpEL support a wide range of features, such a calling methods, accessing properties, and calling constructors.
+.....................................................................................................................
+example:
+ExpressionParser parser = new SpelExpressionParser();
+Expression exp = parser.parseExpression("'Hello World'.concat('!')");//method invocation, whick called on the string litteral
+String message = (String) exp.getValue();
+......................................................................................................................
+next example with calling property:
+
+ExpressionParser parser = new SpelExpressionParser();
+
+// invokes 'getBytes()'
+Expression exp = parser.parseExpression("'Hello World'.bytes");  
+
+byte[] bytes = (byte[]) exp.getValue();
+.............................................................
+SpEL also supports nested properties using standard 'dot' notation, i.e. prop1.prop2.prop3 and the setting of property values
+....................................................
+The String's constructor can be called instead of using a string literal.
+.................................
+ExpressionParser parser = new SpelExpressionParser();
+Expression exp = parser.parseExpression("new String('hello world').toUpperCase()");
+String message = exp.getValue(String.class);
+.....................................

@@ -19,3 +19,17 @@ Code sample: Read EDM ($metadata)
   POST entry
    Read response
    Create single Entry method
+   _________________________________________________________
+   Entity is a instance of Entity Types. 
+   Entity Type is a structed records which consisting of named and typed properties and with a key.
+   Complex types it's the same, but without a key, so Complex Type can only exist as a property of a containing entity or a temporary value.
+   A Entity Key is formed from  a subset of properties of the Entity Type.
+   Therefore, Entity Key is a central concept for uniquely of Entity Types and allowing to Entity Type instances to participate in relationships.
+   Entities are grouped to Entity Set.
+   Associations define the relationships between two or more entity types. Instances Of Associations are grouped to Association Set.
+   Navigation Properties are special property on Entity Types which are bound to a specific association and can be used to refer to association of an entity.
+	Finally all instance containers(Entity set and Association Set) are grouped in Entity Container.
+	In OData Service terms: The feed exposed by an Odata service represented by Entity Set or a Navigation Property on an Entity that identifies a collection of Entity.
+	for EX:
+	https://services.odata.org/OData/OData.svc/Categories(1)/Products
+	 https://services.odata.org/OData/OData.svc/Products

@@ -1,0 +1,7 @@
+Loyality project for ikea.
+
+qestions/
+SAp jam - сервис документо оборота
+Gigya - сервис для регистрации?
+Fiori
+huge

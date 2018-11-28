@@ -1,3 +1,4 @@
 @Data - Lombok annotation, means to create getter,setter,equals,hash,toString methods
-I am getting frustrated by the number of people calling any HTTP-based interface a REST API. Today’s example is the SocialSite REST API. That is RPC. It screams RPC. There is so much coupling on display that it should be given an X rating.
+I am getting frustrated by the number of people calling any HTTP-based interface a REST API. 
+Today’s example is the SocialSite REST API. That is RPC. It screams RPC. There is so much coupling on display that it should be given an X rating.
 
