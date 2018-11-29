@@ -2,7 +2,7 @@ Loyality project for ikea.
 
 qestions/
 SAp jam - сервис документо оборота
-Gigya - сервис для регистрации?
+Gigya - сервис для регистрации/ будем юзать
 huge
 
 Receipt Bank Arch
@@ -25,3 +25,5 @@ Event feedback  gathering
 Event rating view in yMKT
 
 Manzana/
+
+пояснить рисунок https://confluence.customertimes.com/display/IKEA/Loyalty+deployment+options+with+IKANO

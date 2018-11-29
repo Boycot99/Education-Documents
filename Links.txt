@@ -1,5 +1,11 @@
 Links
 https://www.odata.org/documentation/odata-version-2-0/json-format/
+https://habr.com/post/168223/
 https://docs.oracle.com/javase/8/docs/api/java/lang/Iterable.html#spliterator--
 https://en.wikipedia.org/wiki/SOAP
 https://habr.com/post/150034/
+http://stleary.github.io/JSON-java/index.html
+https://www.baeldung.com/java-org-json
+https://s3.amazonaws.com/baeldung.com/Building+a+REST+API+with+Spring.pdf?__s=
+http://stleary.github.io/JSON-java/org/json/JSONTokener.html
+https://developers.gigya.com/display/GD/Webhooks#Webhooks-NotificationObjectMembers
