@@ -1,0 +1,15 @@
+																Authentication
+												enable user auth for access to your app
+https://help.sap.com/viewer/65de2977205c403bbc107264b8eccf4b/Cloud/en-US/e637f62abb571014857cb0232adc43a7.html#loioe637f62abb571014857cb0232adc43a7
+												
+1 STEP. Declarative authentication
+	You should declare security mechanism in web.xml
+	SCP support follow default authentication methods:
+	 a) FORM 
+	 b) BASIC
+	 c) CERT
+	 d) BASICCERT
+	 e) OAUTH
+	 f) SAML2
+If you define roles in the web.xml, you need to manage the role assignments of users after you deploy your application on SAP Cloud Platform. See Managing Roles
+https://help.sap.com/viewer/65de2977205c403bbc107264b8eccf4b/Cloud/en-US/db8175b9d976101484e6fa303b108acd.html

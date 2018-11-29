@@ -3,5 +3,25 @@ Loyality project for ikea.
 qestions/
 SAp jam - сервис документо оборота
 Gigya - сервис для регистрации?
-Fiori
 huge
+
+Receipt Bank Arch
+
+1-OFD -???
+
+Functional Arch:
+
+DAM (collabration + Content Distribution)
+yMarketing (
+___________________
+SCP Dev - ORA???
+
+Event creation via CSV upload
+Event hierarchy management via CSV upload
+Participation registration via Web
+Registration management via customer profile in web
+Check-in management  via SCP app
+Event feedback  gathering 
+Event rating view in yMKT
+
+Manzana/
